@@ -4,8 +4,6 @@
     --deftraback: rgba(229, 9, 20, 0.2) !important;
     --rounding: 3px;
     --accent: #e50914;
-    --color-bg: #141414;
-    --color-fc: #fff;
   }
   
   /*Highlight*/
@@ -1739,11 +1737,11 @@
   .backgroundContainer.withBackdrop {
     opacity: 1;
     z-index: -1;
-    background-color: var(--color-bg);
+    background-color: rgb(20, 20, 20);
   }
   
   .backgroundContainer {
-    background-color: var(--color-bg) !important;
+    background-color: rgb(20, 20, 20) !important;
   }
   
   /*Rounded corners and square hover buttons*/
@@ -2197,7 +2195,7 @@
   }
   
   .backgroundContainer {
-    background-color: var(--color-bg);
+    background-color: #101010;
   }
   
   .raised {
