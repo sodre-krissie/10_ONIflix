@@ -744,7 +744,7 @@
   }
   
   ::-webkit-scrollbar-track-piece {
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: var(--color-bg) !important;
   }
   
   .button-link {
@@ -2073,7 +2073,7 @@
   }
   
   #itemDetailPage::-webkit-scrollbar-track-piece {
-    background: rgb(20, 20, 20);
+    background: var(--color-bg);
   }
   
   .listItemImageButton.itemAction.paper-icon-button-light {
