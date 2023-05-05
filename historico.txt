@@ -1,2 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/default.css");
 @import url("https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/addons/Logo.css");
+
+Em Teste:
+
+@import url("https://github.com/sodre-krissie/10_ONIflix/blob/master/default.css");
+@import url("https://github.com/sodre-krissie/10_ONIflix/blob/master/Logo.css");
