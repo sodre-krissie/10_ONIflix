@@ -1,0 +1,39 @@
+/*Variáveis*/
+:root{
+    --var-corBranco: #fff;
+    --var-corCinza: #606060;
+
+    --var-corONIhub: #548235;
+    --var-corONIcommerce: #ffc000;
+    --var-corONIpublishing: #7030a0;
+    --var-corONIbooks: #f6405e;
+    --var-corONIactive: #29abe2;
+    --var-corONIlive: #1e2a6f;
+    --var-corONIflix: #c00000;
+    --var-corONIquest: #f15a24;
+    --var-corONIface: #42e707;
+    
+    --var-corONIprof: #00a99d;
+    
+    /* Gradientes: */
+    --gradienteONIhub: radial-gradient(circle, rgba(84,130,53,1) 0%, rgba(58,98,31,1) 100%);
+    --gradienteONIcommerce: radial-gradient(circle, rgba(255,192,0,1) 0%, rgba(223,188,80,1) 100%);
+    --gradienteONIpublishing: radial-gradient(circle, rgba(112,48,160,1) 0%, rgba(144,88,186,1) 100%);
+    --gradienteONIbooks: radial-gradient(circle, rgba(246,64,94,1) 0%, rgba(175,27,51,1) 100%);
+    --gradienteONIactive: radial-gradient(circle, rgba(41,171,226,1) 0%, rgba(6,133,187,1) 100%);
+    --gradienteONIlive: radial-gradient(circle, rgba(30,42,111,1) 0%, rgba(37,56,163,1) 100%);
+    --gradienteONIflix: radial-gradient(circle, rgba(192,0,0,1) 0%, rgba(154,41,41,1) 100%);
+    --gradienteONIquest: radial-gradient(circle, rgba(241,90,36,1) 0%, rgba(152,74,46,1) 100%);
+    --gradienteONIface: radial-gradient(circle, rgba(66,231,7,1) 0%, rgba(66,159,32,1) 100%);
+}
+:root,
+:root.light {
+	--color-bg: #e6e3e3;
+    --color-mg: #fff;
+	--color-fg: #1f1f1f;
+}
+:root.dark {
+	--color-bg: #343434;
+    --color-mg: #404040;
+	--color-fg: #ffffff;
+}
