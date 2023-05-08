@@ -4,9 +4,6 @@
   --deftraback: rgba(229, 9, 20, 0.2) !important;
   --rounding: 3px;
   --accent: #e50914;
-
-  --color-bc: #e50914;
-  --swiper-theme-color: #e50914;
 }
 
 /*Highlight*/
@@ -173,7 +170,7 @@ span.material-icons.checkboxIcon.checkboxIcon-checked.check {
 .countIndicator,
 .fullSyncIndicator,
 .playedIndicator {
-  background: #5dd000;
+  background: linear-gradient(-135deg, rgba(40, 40, 40) 50%, transparent 50%);
 }
 
 button.emby-tab-button.emby-button.emby-tab-button-active:hover {
@@ -183,11 +180,6 @@ button.emby-tab-button.emby-button.emby-tab-button-active:hover {
 .emby-tab-button.show-focus:focus,
 .emby-tab-button:hover {
   color: var(--accent) !important;
-}
-
-/* Make watched icon dark and transparent */
-.indicator{ 
-  background: #00000058 !important; 
 }
 
 /*Theming Title Page*/
@@ -2280,13 +2272,4 @@ div:not(.paperList) .listItem {
 
 .chapterCard .innerCardFooter > .cardText:last-child {
   float: right;
-}
-
-/*Alterado*/
-.countIndicator, .fullSyncIndicator, .mediaSourceIndicator, .playedIndicator{
-  background: var(--color-bc) !important;
-}
-
-.cardOverlayFab-primary:hover{
-  background-color: var(--swiper-theme-color) !important;
 }

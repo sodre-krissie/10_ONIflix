@@ -1,13 +1,13 @@
-:root{
+/* :root{
     --color-green: #5dd000;
     --color-red: #c00000;
-}
+} */
 
-/* Botao canto direito card */
+/* Botao canto direito card
 .countIndicator, .fullSyncIndicator, .mediaSourceIndicator, .playedIndicator{
     background: var(--color-green) !important;
     opacity: 0.7 !important;
-}
+} */
 
 
 /* Narrow the login form */
