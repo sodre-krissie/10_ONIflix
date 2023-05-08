@@ -182,6 +182,11 @@ button.emby-tab-button.emby-button.emby-tab-button-active:hover {
   color: var(--accent) !important;
 }
 
+/* Make watched icon dark and transparent */
+.indicator{ 
+  background: #00000058 !important; 
+}
+
 /*Theming Title Page*/
 
 div#itemBackdrop {
