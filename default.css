@@ -2284,5 +2284,9 @@ div:not(.paperList) .listItem {
 
 /*Alterado*/
 .countIndicator, .fullSyncIndicator, .mediaSourceIndicator, .playedIndicator{
-  background: var(--color-bc);
+  background: var(--color-bc) !important;
+}
+
+.cardOverlayFab-primary:hover{
+  background-color: var(--swiper-theme-color) !important;
 }
