@@ -4,6 +4,9 @@
   --deftraback: rgba(229, 9, 20, 0.2) !important;
   --rounding: 3px;
   --accent: #e50914;
+
+  --color-bc: #e50914 !important;
+  --swiper-theme-color: #e50914 !important;
 }
 
 /*Highlight*/
@@ -2277,4 +2280,9 @@ div:not(.paperList) .listItem {
 
 .chapterCard .innerCardFooter > .cardText:last-child {
   float: right;
+}
+
+/*Alterado*/
+.countIndicator, .fullSyncIndicator, .mediaSourceIndicator, .playedIndicator{
+  background: var(--color-bc);
 }
