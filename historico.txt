@@ -5,3 +5,4 @@ Em Teste:
 
 @import url("https://github.com/sodre-krissie/10_ONIflix/blob/master/default.css");
 @import url("https://github.com/sodre-krissie/10_ONIflix/blob/master/Logo.css");
+@import url("https://github.com/sodre-krissie/10_ONIflix/blob/master/index.css");
