@@ -93,6 +93,10 @@
 
 
 /* Pagina interna  */
+#castContent .card.overflowPortraitCard {
+  width: 4.2cm;
+  font-size: 90%;
+}
 
 #castContent .personCard {
   width: auto;
