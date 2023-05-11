@@ -69,6 +69,10 @@ a{
   color: var(--color-fc);
 }
 
+span{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body:hover, h1:hover, h2:hover, h3:hover, h4:hover, a:hover {
   color: var(--color-red);
 }
