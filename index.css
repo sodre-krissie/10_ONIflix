@@ -77,10 +77,6 @@ body{
   background: var(--color-bc);
 }
 
-span{
-  color: var(--color-fc);
-}
-
 /* 1 - Header */
 
 /* 1.1. - menu superior */
