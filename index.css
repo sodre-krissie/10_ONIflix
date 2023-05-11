@@ -64,7 +64,7 @@ h1,
 h2,
 h3,
 h4,
-a, button, span {
+a, button{
   font-family: "Netflix Sans", sans-serif !important;
   color: var(--color-fc);
 }
@@ -75,6 +75,10 @@ body:hover, h1:hover, h2:hover, h3:hover, h4:hover, a:hover {
 
 body{
   background: var(--color-bc);
+}
+
+span{
+  color: var(--color-fc);
 }
 
 /* 1 - Header */
