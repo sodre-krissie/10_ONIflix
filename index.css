@@ -168,7 +168,7 @@ body{
 
 /* 1.1. - menu superior */
 .skinHeader-withBackground{
-  background: transparent !important;
+  background: var(--color-bc) !important;
 }
 
 /* 1.2 - menu header */
