@@ -3,9 +3,9 @@
 
 Em Teste:
 
-@import url("https://raw.githubusercontent.com/sodre-krissie/10_ONIflix/master/default.css");
-@import url("https://raw.githubusercontent.com/sodre-krissie/10_ONIflix/master/Logo.css");
-@import url("https://raw.githubusercontent.com/sodre-krissie/10_ONIflix/master/index.css");
+@import url("https://cdn.jsdelivr.net/gh/sodre-krissie/10_ONIflix@master/default.css");
+@import url("https://cdn.jsdelivr.net/gh/sodre-krissie/10_ONIflix@master/Logo.css");
+@import url("https://cdn.jsdelivr.net/gh/sodre-krissie/10_ONIflix@master/index.css");
 
 @import url("https://capull0.com/view/assets/css/default.css");
 @import url("https://capull0.com/view/assets/css/Logo.css");
