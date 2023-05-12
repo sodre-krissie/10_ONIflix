@@ -208,6 +208,12 @@ body{
 
 /* 2. Cards */
 
+.itemsContainer>.card>.cardBox:hover{
+  transform: scale(1.2);
+  z-index: 9999;
+  border-radius: 5px;
+}
+
 .card.backdropCard.card-hoverable.card-withuserdata:hover{
   /* transition: 0.5s; */
   transform: scale(1.2);
@@ -221,6 +227,14 @@ body{
 .cardIndicators, .cardProgramAttributeIndicators{
   display: none;
 }
+
+.cardTextCentered, .cardTextCentered>.textActionButton{
+  display: none;
+}
+
+/* .cardTextCentered, .cardTextCentered>.textActionButton:hover{
+  display: initial;
+} */
 
 /* 3. Login Page */
 
