@@ -173,6 +173,7 @@ body{
 
 .skinHeader-withBackground{
   background: var(--color-bc) !important;
+  z-index: 999;
 }
 
 /* 1.2 - menu header */
