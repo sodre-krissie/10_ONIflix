@@ -176,6 +176,10 @@ body{
   z-index: 999;
 }
 
+.flex.align-items-center.flex-grow.headerTop{
+  background: var(--color-bc) !important;
+}
+
 /* 1.2 - menu header */
 .headerTabs.sectionTabs{
   background: var(--color-bc) !important;
