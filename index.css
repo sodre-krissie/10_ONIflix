@@ -173,7 +173,7 @@ body{
 
 /* 1.2 - menu header */
 .headerTabs.sectionTabs{
-  background: transparent;
+  background: var(--color-bc) !important;
   position: absolute;
   margin-top: -0.4em;
 }
