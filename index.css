@@ -209,14 +209,14 @@ body{
 /* 2. Cards */
 
 .itemsContainer>.card>.cardBox:hover{
-  transition: 0.5s;
+  transition: all 0.5s ease-out;
   transform: scale(1.2);
   z-index: 9999;
   border-radius: 1em;
 }
 
 .card.backdropCard.card-hoverable.card-withuserdata:hover{
-  transition: 0.5s;
+  transition: all 0.5s ease-out;
   transform: scale(1.2);
   z-index: 9999;
 }
