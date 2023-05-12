@@ -168,7 +168,7 @@ body{
 
 /* 1.1. - menu superior */
 .emby-tabs-slider{
-  background: var(--color-bc);
+  background: var(--color-bc) !important;
 }
 
 .skinHeader-withBackground{
