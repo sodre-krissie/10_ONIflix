@@ -167,13 +167,17 @@ body{
 /* 1 - Header */
 
 /* 1.1. - menu superior */
+.emby-tabs-slider{
+  background: var(--color-bc);
+}
+
 .skinHeader-withBackground{
-  background: var(--color-bc) !important;
+  background: transparent !important;
 }
 
 /* 1.2 - menu header */
 .headerTabs.sectionTabs{
-  background: var(--color-bc) !important;
+  background: transparent;
   position: absolute;
   margin-top: -0.4em;
 }
@@ -191,6 +195,10 @@ body{
 /* 1.4 - bar buttons */
 
 .headerLeft button{
+  z-index: 9999;
+}
+
+.headerLeft h3{
   z-index: 9999;
 }
 
