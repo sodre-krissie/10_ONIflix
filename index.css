@@ -222,21 +222,18 @@ body{
 
 /* 2. Cards */
 
-/* .itemsContainer>.card>.cardBox:hover{
-  transform: scale(1.2);
-  transition: all 0.15s;
-  z-index: 9999;
-  border-radius: 1em;
-} */
+.itemsContainer>.card>.cardBox:hover{
+  margin-right: 0 !important;
+}
 
 .card:not(.show-animation):hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: all 0.15s;
   z-index: 9999;
 }
 
 .card.backdropCard.card-hoverable.card-withuserdata:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: all 0.15s;
   z-index: 9999;
 }
