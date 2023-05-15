@@ -250,13 +250,9 @@ body{
   display: none;
 }
 
-/* .cardTextCentered, .cardTextCentered>.textActionButton{
+.cardText-secondary, .fieldDescription, .guide-programNameCaret, .listItem .secondary, .nowPlayingBarSecondaryText, .programSecondaryTitle, .secondaryText{
   display: none;
-} */
-
-/* .cardTextCentered, .cardTextCentered>.textActionButton:hover{
-  display: initial;
-} */
+}
 
 /* 3. Login Page */
 
