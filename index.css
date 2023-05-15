@@ -16,6 +16,14 @@
   background-size: cover !important;
 }
 
+.button-submit, .emby-checkbox:checked + span + .checkboxOutline{
+  background-color: var(--color-bc);
+}
+
+.button-submit:hover, .emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground{
+  background-color: var(--color-primary);
+}
+
 /*video Page*/
 
 div#videoOsdPage {
@@ -28,7 +36,7 @@ div#videoOsdPage {
 }
 
 .sliderBubble {
-  background: var(--deftraback) !important;
+  background: var(--color-primary) !important;
   border-radius: 10px;
 }
 
@@ -458,4 +466,37 @@ div.personCard > :first-child > :first-child {
 
 .mdl-slider{
   color: var(--color-primary);
+}
+.mdl-slider-background-lower{
+  background-color: var(--color-primary);
+}
+
+/* Lançamento */
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(1)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a
+  > h2 {
+  display: none;
+}
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(1)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a
+  > span {
+  display: none;
+}
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(1)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a:after {
+  content: 'Lançamentos ›';
+  font-size: 24px;
+  font-weight: normal;
 }
