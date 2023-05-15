@@ -246,9 +246,9 @@ body{
   display: none;
 }
 
-.cardTextCentered, .cardTextCentered>.textActionButton{
+/* .cardTextCentered, .cardTextCentered>.textActionButton{
   display: none;
-}
+} */
 
 /* .cardTextCentered, .cardTextCentered>.textActionButton:hover{
   display: initial;
