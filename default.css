@@ -36,11 +36,11 @@
 }
 
 .button-submit, .emby-checkbox:checked + span + .checkboxOutline{
-  background-color: var(--color-bc);
+  background-color: var(--color-bc) !important;
 }
 
 .button-submit:hover, .emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground{
-  background-color: var(--color-primary);
+  background-color: var(--color-primary) !important;
 }
 
 /*fieldset*/
