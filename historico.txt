@@ -10,3 +10,5 @@ Em Teste:
 @import url("https://capull0.com/view/assets/css/default.css");
 @import url("https://capull0.com/view/assets/css/Logo.css");
 @import url("https://capull0.com/view/assets/css/index.css");
+
+@import url("https://genially.ensinamais.com.br/index.css");
