@@ -35,6 +35,14 @@
   background: var(--color-primary) !important;
 }
 
+.button-submit, .emby-checkbox:checked + span + .checkboxOutline{
+  background-color: var(--color-bc);
+}
+
+.button-submit:hover, .emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground{
+  background-color: var(--color-primary);
+}
+
 /*fieldset*/
 
 fieldset.verticalSection.verticalSection-extrabottompadding {
