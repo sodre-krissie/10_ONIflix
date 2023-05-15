@@ -449,3 +449,13 @@ div.personCard > :first-child > :first-child {
 .itemDetailPage .textActionButton {
   text-align: left;
 }
+
+/* Video Page  */
+.focuscontainer-x.osdHeader.skinHeader.skinHeader-blurred.skinHeader-withBackground{
+  opacity: 0.8;
+  max-height: 60px;
+}
+
+.mdl-slider{
+  color: var(--color-primary);
+}
