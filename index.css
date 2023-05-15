@@ -411,3 +411,48 @@ div#loginPage {
     linear-gradient(to right, rgba(0, 0, 0, 0.75), transparent 20%) !important;
   background-size: cover !important;
 }
+
+
+/* Size episode preview images in a more compact way */
+.listItemImage.listItemImage-large.itemAction.lazy {
+  height: 110px;
+}
+.listItem-content {
+  height: 115px;
+}
+.secondary.listItem-overview.listItemBodyText {
+  height: 61px;
+  margin: 0;
+}
+
+/* cast content  */
+#castContent .card.overflowPortraitCard {
+  width: 4.2cm;
+  font-size: 90%;
+}
+
+#castContent .personCard {
+  width: auto;
+}
+
+#castContent .personCard .cardBox {
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+#castContent {
+  flex-wrap: wrap;
+  max-height: 9.75em;
+}
+
+div.personCard > :first-child > :first-child {
+  display: none;
+}
+
+.itemDetailPage .cardText {
+  text-align: left;
+}
+
+.itemDetailPage .textActionButton {
+  text-align: left;
+}
