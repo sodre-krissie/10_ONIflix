@@ -2017,7 +2017,7 @@ body:not(.withSectionTabs) > .skinHeader {
   }
 }
 
-@media screen and(min-width: 1024px){
+@media (min-width: 1024px){
   .headerTabs.sectionTabs {
     text-size-adjust: 110%;
     font-size: 110%;
